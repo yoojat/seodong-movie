@@ -118,9 +118,9 @@ const Yoohee = () => {
   const { innerWidth } = useScroll();
   const TitleSrc = () => (
     <div>
-      사랑하는 사람들과
+      홍콩 영화들과 다양한 게임으로
       <br />
-      이야기를 만들어가는 공간
+      즐길거리와 분위기를 모두 느낄 수 있는 공간
     </div>
   );
 
