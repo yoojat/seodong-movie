@@ -1,16 +1,16 @@
 const config = {
-  canonical: 'https://gogaeseodong.vercel.app/',
+  canonical: 'https://seodong-movie.vercel.app/',
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    url: 'https://gogaeseodong.vercel.app/',
-    site_name: '서동영화',
-    title: '서동영화',
+    url: 'https://seodong-movie.vercel.app/',
+    site_name: '서동영화-부산오티티룸',
+    title: '서동영화-부산오티티룸',
     image: {
-      url: 'https://gogaeseodong.vercel.app/mainPhotos/2.JPG',
+      url: 'https://seodong-movie.vercel.app/mainPhotos/2.JPG',
       width: 800,
       height: 600,
-      alt: '서동영화',
+      alt: '서동영화-부산오티티룸',
       type: 'image/jpeg',
     },
     description:
