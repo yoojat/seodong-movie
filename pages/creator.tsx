@@ -28,7 +28,7 @@ const CreatorColRight = styled.div`
 
 const Creator = () => {
   return (
-    <DefaultContentLayout photoUrl='/mainPhotos/3.JPG' seoTitle='만든이'>
+    <DefaultContentLayout photoUrl='/mainPhotos/9.JPG' seoTitle='만든이'>
       <>
         <CreatorsContainer>
           <CreatorRow>
@@ -37,19 +37,15 @@ const Creator = () => {
           </CreatorRow>
           <CreatorRow>
             <CreatorColLeft>시공</CreatorColLeft>
-            <CreatorColRight>천홍범, 황성부</CreatorColRight>
+            <CreatorColRight>천홍범</CreatorColRight>
           </CreatorRow>
           <CreatorRow>
             <CreatorColLeft>스타일링</CreatorColLeft>
-            <CreatorColRight>김이슬, 정제이</CreatorColRight>
+            <CreatorColRight>송병근, 정제이</CreatorColRight>
           </CreatorRow>
           <CreatorRow>
             <CreatorColLeft>개발</CreatorColLeft>
             <CreatorColRight>김태영</CreatorColRight>
-          </CreatorRow>
-          <CreatorRow>
-            <CreatorColLeft>베이커리</CreatorColLeft>
-            <CreatorColRight>박재현</CreatorColRight>
           </CreatorRow>
         </CreatorsContainer>
       </>
