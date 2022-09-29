@@ -9,8 +9,6 @@ const ReserveationHeaderContainer = styled.div`
 `;
 
 const KakaoButton = styled.a`
-  background-color: #f2dc02;
-  color: #371a1a;
   border: none;
   font-weight: 800;
   cursor: pointer;
@@ -21,10 +19,9 @@ const KakaoButton = styled.a`
   width: 160px;
   display: inline-block;
   padding: 10px;
+  border: 1px solid black;
 `;
 const NaverButton = styled.a`
-  background-color: #02c75a;
-  color: white;
   border: none;
   font-weight: 800;
   cursor: pointer;
@@ -35,6 +32,7 @@ const NaverButton = styled.a`
   width: 160px;
   display: inline-block;
   padding: 10px;
+  border: 1px solid black;
 `;
 
 const Spacer = styled.div`
@@ -99,7 +97,7 @@ const Inquery = () => {
         </KakaoButton>
         <NaverButton
           target={'_blank'}
-          href='https://m.booking.naver.com/booking/10/bizes/638724?theme=place&entry=pll&area=pll'
+          href='https://booking.naver.com/booking/10/bizes/719763'
         >
           네이버 예약
         </NaverButton>
